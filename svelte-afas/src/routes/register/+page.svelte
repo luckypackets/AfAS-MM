@@ -1,0 +1,116 @@
+<div class="bg-gray-100">
+	<main class="container mx-auto px-4 py-8">
+		<h2 class="text-3xl font-bold text-center mb-8">Member Registration</h2>
+		<form
+			action="#"
+			method="post"
+			enctype="multipart/form-data"
+			class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow"
+		>
+			<div class="grid md:grid-cols-2 gap-4">
+				<div>
+					<label for="first_name" class="block text-sm font-medium text-gray-700">First Name</label>
+					<input
+						type="text"
+						id="first_name"
+						name="first_name"
+						class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+					/>
+				</div>
+				<div>
+					<label for="last_name" class="block text-sm font-medium text-gray-700">Last Name</label>
+					<input
+						type="text"
+						id="last_name"
+						name="last_name"
+						class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+					/>
+				</div>
+			</div>
+			<div class="mt-4">
+				<label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+				<input
+					type="email"
+					id="email"
+					name="email"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				/>
+			</div>
+			<div class="mt-4">
+				<label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+				<input
+					type="tel"
+					id="phone"
+					name="phone"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				/>
+			</div>
+			<div class="mt-4">
+				<label for="address" class="block text-sm font-medium text-gray-700">Address</label>
+				<textarea
+					id="address"
+					name="address"
+					rows="3"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				></textarea>
+			</div>
+			<div class="mt-4">
+				<label for="institution" class="block text-sm font-medium text-gray-700">Institution</label>
+				<input
+					type="text"
+					id="institution"
+					name="institution"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				/>
+			</div>
+			<div class="mt-4">
+				<label for="position" class="block text-sm font-medium text-gray-700">Position/Title</label>
+				<input
+					type="text"
+					id="position"
+					name="position"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				/>
+			</div>
+			<div class="mt-4">
+				<label for="research_interests" class="block text-sm font-medium text-gray-700"
+					>Research Interests</label
+				>
+				<textarea
+					id="research_interests"
+					name="research_interests"
+					rows="3"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				></textarea>
+			</div>
+			<div class="mt-4">
+				<label for="publications" class="block text-sm font-medium text-gray-700"
+					>Notable Publications</label
+				>
+				<textarea
+					id="publications"
+					name="publications"
+					rows="3"
+					class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+				></textarea>
+			</div>
+			<div class="mt-4">
+				<label for="cv" class="block text-sm font-medium text-gray-700">Upload CV</label>
+				<input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" class="mt-1 block w-full" />
+			</div>
+			<div class="mt-4">
+				<label for="other_docs" class="block text-sm font-medium text-gray-700"
+					>Other Documentation</label
+				>
+				<input type="file" id="other_docs" name="other_docs" multiple class="mt-1 block w-full" />
+			</div>
+			<div class="mt-6">
+				<button
+					type="submit"
+					class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+					>Register</button
+				>
+			</div>
+		</form>
+	</main>
+</div>
